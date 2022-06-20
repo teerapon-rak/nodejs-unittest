@@ -1,0 +1,41 @@
+{
+  "name": "nodejs-unittest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teerapon-rak/nodejs-unittest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teerapon-rak/nodejs-unittest/issues"
+  },
+  "homepage": "https://github.com/teerapon-rak/nodejs-unittest#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "coverage"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 0
+      }
+    },
+    "collectCoverage": true,
+    "collectCoverageFrom": ["./**/*.js"]
+  }
+}
