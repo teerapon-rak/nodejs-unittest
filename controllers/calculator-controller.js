@@ -8,7 +8,7 @@ const add = (req, res) => {
   res.send(`result: ${result}`)
 }
 
-const devide = (req, res) => {
+const divide = (req, res) => {
   const a = Number(req.query.a)
   const b = Number(req.query.b)
 
@@ -25,5 +25,5 @@ const devide = (req, res) => {
 
 module.exports = {
   add,
-  devide
+  divide
 }
